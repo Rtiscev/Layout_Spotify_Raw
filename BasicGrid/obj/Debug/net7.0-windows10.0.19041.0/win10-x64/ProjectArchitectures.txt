@@ -1,0 +1,1 @@
+D:\Code shit\Tutorial\MAUI.NET\Layouts\Basic Grid\BasicGrid\BasicGrid.csproj;x64
