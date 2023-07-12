@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Spotiffyy.MainPage"
+             >
+
+    <Grid RowDefinitions="*,90" ColumnDefinitions="*,4*">
+        <VerticalStackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="Blue" Padding="20,40">
+            <Frame BorderColor="white" BackgroundColor="Transparent">
+                <VerticalStackLayout>
+
+                    <HorizontalStackLayout Spacing="20">
+                        <Image BackgroundColor="Transparent">
+                            <Image.Source>
+                                <FontImageSource Color="Red" Glyph="&#xe88a;" FontFamily="MaterialRound"/>
+                            </Image.Source>
+                        </Image>
+                        <Label>Home</Label>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Spacing="20">
+                        <Image BackgroundColor="Transparent">
+                            <Image.Source>
+                                <FontImageSource Color="Red" Glyph="&#xe8b6;" FontFamily="MaterialRound"/>
+                            </Image.Source>
+                        </Image>
+                        <Label>Search</Label>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Spacing="20">
+                        <Image BackgroundColor="Transparent">
+                            <Image.Source>
+                                <FontImageSource Color="Red" Glyph="&#xe595;" FontFamily="MaterialRound"/>
+                            </Image.Source>
+                        </Image>
+                        <Label>Your Library</Label>
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+            </Frame>
+            <Label>PLAYLISTS</Label>
+
+            <Frame BorderColor="white" BackgroundColor="Transparent">
+                <VerticalStackLayout Spacing="2">
+
+                    <HorizontalStackLayout Spacing="20">
+                        <Image BackgroundColor="Gray">
+                            <Image.Source>
+                                <FontImageSource Color="Black" Glyph="&#xe145;" FontFamily="MaterialRound"/>
+                            </Image.Source>
+                        </Image>
+                        <Label>Create Playlist</Label>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Spacing="20" >
+                        <Image BackgroundColor="Blue">
+                            <Image.Source>
+                                <FontImageSource Color="White" Glyph="&#xe87d;" FontFamily="MaterialRound"/>
+                            </Image.Source>
+                        </Image>
+                        <Label>Liked Songs</Label>
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <Label>2021 Greatest Songs</Label>
+            <Label>At Work</Label>
+            <Label>Playlist #2</Label>
+            <Label>Playlist #4</Label>
+            <Label>RapCavier</Label>
+        </VerticalStackLayout>
+
+        <ScrollView Grid.Row="0" Grid.Column="1" BackgroundColor="Red">
+            <VerticalStackLayout Padding="20" Spacing="10">
+                <Grid ColumnDefinitions="200,*">
+                    <Grid ColumnDefinitions="60,60">
+                        <Frame CornerRadius="300" HeightRequest="45" Margin="10,0,0,0" Grid.Column="0">
+                            <Image BackgroundColor="Transparent" Scale="3">
+                                <Image.Source>
+                                    <FontImageSource Color="White" Glyph="&#xe5e0;" FontFamily="MaterialRound"/>
+                                </Image.Source>
+                            </Image>
+                        </Frame>
+                        <Frame CornerRadius="300" HeightRequest="45" Margin="10,0,0,0" Grid.Column="1">
+                            <Image BackgroundColor="Transparent" Scale="3" >
+                                <Image.Source>
+                                    <FontImageSource Color="White" Glyph="&#xe5e1;" FontFamily="MaterialRound"/>
+                                </Image.Source>
+                            </Image>
+                        </Frame>
+                    </Grid>
+
+                    <Frame  VerticalOptions="End" HorizontalOptions="End" Grid.Column="1">
+                        <HorizontalStackLayout>
+                            <Image BackgroundColor="Transparent">
+                                <Image.Source>
+                                    <FontImageSource Color="White" Glyph="&#xe853;" FontFamily="MaterialRound"/>
+                                </Image.Source>
+                            </Image>
+                            <Label>Your Name</Label>
+                            <Image BackgroundColor="Transparent" Aspect="Center">
+                                <Image.Source>
+                                    <FontImageSource Color="White" Glyph="&#xe5c5;" FontFamily="MaterialRound"/>
+                                </Image.Source>
+                            </Image>
+                        </HorizontalStackLayout>
+                    </Frame>
+                </Grid>
+
+                <Label FontSize="Large">Good morning</Label>
+
+                <Grid ColumnDefinitions="*,*,*" RowDefinitions="100,100" ColumnSpacing="20" RowSpacing="20">
+
+                    <Grid ColumnDefinitions="*,2*" Grid.Row="0" Grid.Column="0">
+                        <Image Grid.Column="0" Aspect="AspectFill">
+                            <Image.Source>
+                                <UriImageSource Uri="https://wallup.net/wp-content/uploads/2016/01/246079-digital_art-abstract-circle-colorful.jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Frame Grid.Column="1" CornerRadius="0">
+                            <Label VerticalTextAlignment="Center">Release Radar</Label>
+                        </Frame>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,2*" Grid.Row="0" Grid.Column="1">
+                        <Image Grid.Column="0" Aspect="AspectFill">
+                            <Image.Source>
+                                <UriImageSource Uri="https://wallpapercave.com/wp/E8tEyXs.jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Frame Grid.Column="1" CornerRadius="0">
+                            <Label VerticalTextAlignment="Center">Crimetown</Label>
+                        </Frame>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,2*" Grid.Row="0" Grid.Column="2">
+                        <Image Grid.Column="0" Aspect="AspectFill">
+                            <Image.Source>
+                                <UriImageSource Uri="https://hdwallpaperim.com/wp-content/uploads/2017/08/23/464310-fractal-abstract-digital_art-artwork.jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Frame Grid.Column="1" CornerRadius="0">
+                            <Label VerticalTextAlignment="Center">Discover Weekly</Label>
+                        </Frame>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,2*" Grid.Row="1" Grid.Column="0">
+                        <Image Grid.Column="0" Aspect="AspectFill">
+                            <Image.Source>
+                                <UriImageSource Uri="http://wallup.net/wp-content/uploads/2016/03/09/343665-digital_art-abstract-fractal-mirrored-colorful.jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Frame Grid.Column="1" CornerRadius="0">
+                            <Label FontAttributes="Bold" TextColor="White" FontSize="Micro" VerticalTextAlignment="Center">Daily Mix 1</Label>
+                        </Frame>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,2*" Grid.Row="1" Grid.Column="1">
+                        <Image Grid.Column="0" Aspect="AspectFill">
+                            <Image.Source>
+                                <UriImageSource Uri="https://1.bp.blogspot.com/-vg00896lJaU/UBm1G53QCnI/AAAAAAAAA1Q/wJaxPD0LCJo/s1600/Abstract+CG+(30).jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Frame Grid.Column="1" CornerRadius="0">
+                            <Label FontAttributes="Bold" TextColor="White" FontSize="Micro"  VerticalTextAlignment="Center">Daily Mix 2</Label>
+                        </Frame>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,2*" Grid.Row="1" Grid.Column="2">
+                        <Image Grid.Column="0" Aspect="AspectFill">
+                            <Image.Source>
+                                <UriImageSource Uri="http://3.bp.blogspot.com/-QxWElT9jii0/TeD9uzUAV2I/AAAAAAAAA8k/qggIEJNhLWU/s1600/abstract-background-wallpaper4.jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Frame Grid.Column="1" CornerRadius="0">
+                            <Label FontAttributes="Bold" TextColor="White" FontSize="Micro" VerticalTextAlignment="Center">Farewell</Label>
+                        </Frame>
+                    </Grid>
+
+                </Grid>
+
+
+                <Grid ColumnDefinitions="*,*">
+                    <Label Grid.Column="0" FontSize="Large" >Your heavy rotation</Label>
+                    <Label Grid.Column="1" HorizontalTextAlignment="End" VerticalTextAlignment="Center">SEE MORE</Label>
+                </Grid>
+
+                <Grid ColumnDefinitions="*,*,*,*,*" RowDefinitions="250" ColumnSpacing="20">
+
+                    <Grid Grid.Column="0" RowDefinitions="*,30,30" Padding="10">
+                        <Image Grid.Row="0" Aspect="Fill">
+                            <Image.Source>
+                                <UriImageSource Uri="http://www.pixelstalk.net/wp-content/uploads/2016/09/Best-Abstract-Music-Wallpaper.jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Label FontSize="Small" FontAttributes="Bold" TextColor="White" Grid.Row="1">Be happy</Label>
+                        <Label FontSize="Micro" Grid.Row="2">Gene Jr.</Label>
+                    </Grid>
+
+                    <Grid Grid.Column="1" RowDefinitions="*,30,30" Padding="10">
+                        <Image Grid.Row="0" Aspect="Fill">
+                            <Image.Source>
+                                <UriImageSource Uri="https://bgwall.net/wp-content/uploads/2014/09/abstract-music-wallpaper.jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Label FontSize="Small" FontAttributes="Bold" TextColor="White" Grid.Row="1">Some Days</Label>
+                        <Label FontSize="Micro" Grid.Row="2">Ira Wolf</Label>
+                    </Grid>
+
+                    <Grid Grid.Column="2" RowDefinitions="*,30,30" Padding="10">
+                        <Image Grid.Row="0" Aspect="Fill">
+                            <Image.Source>
+                                <UriImageSource Uri="https://images.hdqwalls.com/wallpapers/dj-boy-abstract-art-hd.jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Label FontSize="Small" FontAttributes="Bold" TextColor="White" Grid.Row="1">Chime</Label>
+                        <Label FontSize="Micro" Grid.Row="2">Alert Gogoli</Label>
+                    </Grid>
+                    <Grid Grid.Column="3" RowDefinitions="*,30,30" Padding="10">
+                        <Image Grid.Row="0" Aspect="Fill">
+                            <Image.Source>
+                                <UriImageSource Uri="https://www.bernardbeneito.com/wp-content/uploads/2018/03/abstract-painting-of-a.jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Label FontSize="Small" FontAttributes="Bold" TextColor="White" Grid.Row="1">Runaway</Label>
+                        <Label FontSize="Micro" Grid.Row="2">Beast Coast</Label>
+                    </Grid>
+                    <Grid Grid.Column="4" RowDefinitions="*,30,30" Padding="10">
+                        <Image Grid.Row="0" Aspect="Fill">
+                            <Image.Source>
+                                <UriImageSource Uri="https://4.bp.blogspot.com/-8CoXPEtCZmA/T_y91fp8p9I/AAAAAAAAFfw/D0X-4i-FOb0/s1600/Best-desktop-music-wallpapers.jpg"></UriImageSource>
+                            </Image.Source>
+                        </Image>
+                        <Label FontSize="Small" FontAttributes="Bold" TextColor="White" Grid.Row="1">In Your Car</Label>
+                        <Label FontSize="Micro" Grid.Row="2">No Alpha</Label>
+                    </Grid>
+                </Grid>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Green" ColumnDefinitions="*,3*,*" ColumnSpacing="70" Padding="20,0,0,0">
+
+            <Grid ColumnDefinitions=".4*,*,auto" Grid.Column="0" Padding="0,10,10,10">
+                <Image Aspect="Fill">
+                    <Image.Source>
+                        <UriImageSource Uri="https://wallpapercave.com/wp/wp2373787.jpg"></UriImageSource>
+                    </Image.Source>
+                </Image>
+                <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Margin="10,0,0,0">
+                    <Label TextColor="white" FontAttributes="Bold" FontSize="Small">Domestic violence</Label>
+                    <Label TextColor="Grey" FontSize="Micro">Warwfill</Label>
+                </VerticalStackLayout >
+                <Image Aspect="AspectFit" Grid.Column="2" HeightRequest="20">
+                    <Image.Source>
+                        <FontImageSource Glyph="&#xe87e;" FontFamily="MaterialRound"/>
+                    </Image.Source>
+                </Image>
+            </Grid>
+            <!--<Label BackgroundColor="purple" Grid.Column="0">text</Label>-->
+
+            <!--<Label BackgroundColor="Brown" Grid.Column="1">text</Label>-->
+            <Grid RowDefinitions="2*,*" Grid.Column="1">
+                <Grid ColumnDefinitions="*,*,*,*,*" HorizontalOptions="Center" ColumnSpacing="20">
+                    <Image Grid.Column="0" Aspect="AspectFit" HeightRequest="20" HorizontalOptions="Center">
+                        <Image.Source>
+                            <FontImageSource Glyph="&#xe043;" FontFamily="MaterialRound"/>
+                        </Image.Source>
+                    </Image>
+                    <Image Grid.Column="1" Aspect="AspectFit" HeightRequest="20" HorizontalOptions="Center">
+                        <Image.Source>
+                            <FontImageSource Glyph="&#xe045;" FontFamily="MaterialRound"/>
+                        </Image.Source>
+                    </Image>
+                    <Frame Grid.Column="2" Padding="0" VerticalOptions="Center" HorizontalOptions="Center" CornerRadius="20" HeightRequest="40" WidthRequest="40">
+                        <Image Aspect="AspectFit" Scale="0.5"  HorizontalOptions="Center">
+                            <Image.Source>
+                                <FontImageSource Glyph="&#xe037;" FontFamily="MaterialRound"/>
+                            </Image.Source>
+                        </Image>
+                    </Frame>
+                    <Image Grid.Column="3" Aspect="AspectFit" HeightRequest="20">
+                        <Image.Source>
+                            <FontImageSource Glyph="&#xe044;" FontFamily="MaterialRound"/>
+                        </Image.Source>
+                    </Image>
+                    <Image Grid.Column="4" Aspect="AspectFit" HeightRequest="20">
+                        <Image.Source>
+                            <FontImageSource Glyph="&#xe042;" FontFamily="MaterialRound"/>
+                        </Image.Source>
+                    </Image>
+                </Grid>
+                <!--VerticalOptions="Center"-->
+                <Grid Grid.Row="1" ColumnSpacing="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="0:00" VerticalOptions="Center" Padding="0,0,0,5"/>
+                    <BoxView Grid.Column="1" HeightRequest="2" Color="LightGray" VerticalOptions="Center" HorizontalOptions="Fill" />
+                    <Label Grid.Column="2" Text="4:25" VerticalOptions="Center" Padding="0,0,0,5"/>
+                </Grid>
+
+            </Grid>
+
+            <Grid Grid.Column="2" ColumnDefinitions="auto,auto,auto,.2*,auto" ColumnSpacing="5" Padding="0,0,20,0">
+
+                <Image Grid.Column="0" Aspect="AspectFit" HeightRequest="20">
+                    <Image.Source>
+                        <FontImageSource Glyph="&#xe05f;" FontFamily="MaterialRound"/>
+                    </Image.Source>
+                </Image>
+                <Image Grid.Column="1" Aspect="AspectFit" HeightRequest="20">
+                    <Image.Source>
+                        <FontImageSource Glyph="&#xe1b1;" FontFamily="MaterialRound"/>
+                    </Image.Source>
+                </Image>
+                <Image Grid.Column="2" Aspect="AspectFit" HeightRequest="20">
+                    <Image.Source>
+                        <FontImageSource Glyph="&#xe050;" FontFamily="MaterialRound"/>
+                    </Image.Source>
+                </Image>
+
+                <BoxView Grid.Column="3" HeightRequest="2" Color="LightGray" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+
+                <Image Grid.Column="4" Aspect="AspectFit" HeightRequest="20">
+                    <Image.Source>
+                        <FontImageSource Glyph="&#xf1cf;" FontFamily="MaterialRound"/>
+                    </Image.Source>
+                </Image>
+            </Grid>
+            <!--<Label BackgroundColor="purple" Grid.Column="2">text</Label>-->
+        </Grid>
+    </Grid>
+
+</ContentPage>
